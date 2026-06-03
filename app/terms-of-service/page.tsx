@@ -234,7 +234,7 @@ export default function TermsOfService() {
                   <p className="text-gray-400 text-sm font-medium">Have questions about our terms? Our legal team is here to help.</p>
                 </div>
                 <Link 
-                  href="/carbonsync-contact"
+                  href="/contact"
                   className="bg-white text-gray-900 px-10 py-4 rounded-2xl font-bold hover:bg-green-600 hover:text-white transition-all duration-300 shadow-xl whitespace-nowrap active:scale-95"
                 >
                   Contact Us

@@ -406,7 +406,7 @@ export default function PrivacyPolicy() {
                       </div>
                     </div>
                     <Link 
-                      href="http://localhost:3000/"
+                      href="/"
                       className="inline-block bg-white text-gray-900 px-12 py-6 rounded-[2rem] font-black uppercase text-xs tracking-widest hover:bg-green-600 hover:text-white transition-all shadow-2xl active:scale-95"
                     >
                       Initialize Support Request

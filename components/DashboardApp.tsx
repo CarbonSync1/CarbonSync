@@ -7,9 +7,6 @@ import {
   Activity, MessageSquare, Send, Cpu, Zap, Trees, Wind, Lock, Fingerprint, CheckCircle2, Maximize2,
   Link as LinkIcon, Eye, Key, ShieldAlert, X, ArrowRight, Trophy
 } from 'lucide-react';
-import 'leaflet/dist/leaflet.css';
-import '@/components/dashboard/dashboard-styles.css';
-
 import ParticleField from '@/components/dashboard/ParticleField';
 import DashboardView from '@/components/dashboard/views/DashboardView';
 import NodesView from '@/components/dashboard/views/NodesView';

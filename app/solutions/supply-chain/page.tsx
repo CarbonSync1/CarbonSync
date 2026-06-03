@@ -1,25 +1,24 @@
 'use client'
 
-import { lazy, Suspense, useRef, useEffect, useState, useCallback } from 'react'
+import { Suspense, useRef, useEffect, useState, useCallback } from 'react'
 import dynamic from 'next/dynamic'
 const CalendlyModal = dynamic(() => import('@/components/supply-chain/components/CalendlyModal'), { ssr: false })
-
-const Hero = lazy(() => import('@/components/supply-chain/sections/Hero'))
-const Problems = lazy(() => import('@/components/supply-chain/sections/Problems'))
-const Workflow = lazy(() => import('@/components/supply-chain/sections/Workflow'))
-const Scopes = lazy(() => import('@/components/supply-chain/sections/Scopes'))
-const Operations = lazy(() => import('@/components/supply-chain/sections/Operations'))
-const Architecture = lazy(() => import('@/components/supply-chain/sections/Architecture'))
-const AI = lazy(() => import('@/components/supply-chain/sections/AI'))
-const Integrations = lazy(() => import('@/components/supply-chain/sections/Integrations'))
-const Compliance = lazy(() => import('@/components/supply-chain/sections/Compliance'))
-const Roadmap = lazy(() => import('@/components/supply-chain/sections/Roadmap'))
-const WaveDivider = lazy(() => import('@/components/supply-chain/components/WaveDivider'))
-const StickyCTA = lazy(() => import('@/components/supply-chain/components/StickyCTA'))
-const ExitIntentPopup = lazy(() => import('@/components/supply-chain/components/ExitIntentPopup'))
-const VideoModal = lazy(() => import('@/components/supply-chain/components/VideoModal'))
-const ROICalculator = lazy(() => import('@/components/supply-chain/components/ROICalculator'))
-const Testimonials = lazy(() => import('@/components/supply-chain/sections/Testimonials'))
+const Hero = dynamic(() => import('@/components/supply-chain/sections/Hero'), { ssr: false })
+const Problems = dynamic(() => import('@/components/supply-chain/sections/Problems'), { ssr: false })
+const Workflow = dynamic(() => import('@/components/supply-chain/sections/Workflow'), { ssr: false })
+const Scopes = dynamic(() => import('@/components/supply-chain/sections/Scopes'), { ssr: false })
+const Operations = dynamic(() => import('@/components/supply-chain/sections/Operations'), { ssr: false })
+const Architecture = dynamic(() => import('@/components/supply-chain/sections/Architecture'), { ssr: false })
+const AI = dynamic(() => import('@/components/supply-chain/sections/AI'), { ssr: false })
+const Integrations = dynamic(() => import('@/components/supply-chain/sections/Integrations'), { ssr: false })
+const Compliance = dynamic(() => import('@/components/supply-chain/sections/Compliance'), { ssr: false })
+const Roadmap = dynamic(() => import('@/components/supply-chain/sections/Roadmap'), { ssr: false })
+const WaveDivider = dynamic(() => import('@/components/supply-chain/components/WaveDivider'), { ssr: false })
+const StickyCTA = dynamic(() => import('@/components/supply-chain/components/StickyCTA'), { ssr: false })
+const ExitIntentPopup = dynamic(() => import('@/components/supply-chain/components/ExitIntentPopup'), { ssr: false })
+const VideoModal = dynamic(() => import('@/components/supply-chain/components/VideoModal'), { ssr: false })
+const ROICalculator = dynamic(() => import('@/components/supply-chain/components/ROICalculator'), { ssr: false })
+const Testimonials = dynamic(() => import('@/components/supply-chain/sections/Testimonials'), { ssr: false })
 
 function SectionFallback() {
   return (

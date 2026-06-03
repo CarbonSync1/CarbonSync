@@ -114,7 +114,7 @@ const Newsroom = () => {
               onClick={(e) => {
                 e.stopPropagation(); // parent click prevent karega
                 if (showAll) {
-                  window.location.href = 'http://localhost:3000'; // Redirect only if "DOWNLOAD REPORT"
+                  window.location.href = '/'; // Redirect only if "DOWNLOAD REPORT"
                 } else {
                   setSelectedArticle(featuredArticle); // Open modal if "READ FULL STORY"
                 }

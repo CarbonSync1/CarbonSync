@@ -230,7 +230,7 @@ export default function RefundPolicy() {
                       <p className="text-sm font-black">pushkarsingh.carbonsync@gmail.com</p>
                     </div>
                     <Link 
-                      href="http://localhost:3000/"
+                      href="/"
                       className="bg-white text-gray-900 px-12 py-6 rounded-[2rem] font-black uppercase text-xs tracking-widest hover:bg-green-600 hover:text-white transition-all shadow-2xl text-center active:scale-95"
                     >
                       Contact Finance Team

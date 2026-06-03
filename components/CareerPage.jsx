@@ -524,12 +524,13 @@ export default function CarbonSyncCareerPage() {
                       return;
                     }
                     try {
-                      // Add _replyto so Formspree knows the sender
+                      const formData = new FormData();
+                      formData.append('name', applicantName);
+                      formData.append('email', applicantEmail);
                       formData.append('_replyto', applicantEmail);
 
                       const response = await fetch('https://formspree.io/f/mgoqyqeo', {
                         method: 'POST',
-                        // Accept JSON response from Formspree
                         headers: {
                           Accept: 'application/json',
                         },

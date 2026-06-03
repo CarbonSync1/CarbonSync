@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from "react";
 import { Leaf, Mail, Phone, MapPin, Clock, ShieldCheck, User, Building, ChevronDown, ArrowRight, Globe, CheckCircle2 } from "lucide-react";
 

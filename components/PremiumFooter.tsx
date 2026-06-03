@@ -31,10 +31,10 @@ const footerLinks = {
     { name: 'Support', href: '/contact' },
   ],
   Legal: [
-    { name: 'Privacy Policy', href: '/' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
     { name: 'Terms of Service', href: '/terms-of-service' },
     { name: 'Data Processing', href: '/data-processing-agreement' },
-    { name: 'Refund Policy', href: '/' },
+    { name: 'Refund Policy', href: '/refund-policy' },
   ],
 };
 
