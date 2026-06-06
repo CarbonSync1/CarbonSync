@@ -56,7 +56,7 @@ export default function Navbar() {
                         height={44}
                         priority
                         unoptimized
-                        className="transition-transform group-hover:rotate-12 duration-300"
+                        className="transition-transform group-hover:rotate-12 duration-300 object-contain"
                     />
                     <span className="text-2xl font-bold tracking-tight text-[#1a2e35]">
                         Carbon<span className="text-[#10b981]">Sync</span>

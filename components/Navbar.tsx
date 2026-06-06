@@ -79,7 +79,7 @@ export default function Navbar() {
               height={36}
               priority
               unoptimized
-              className="w-8 h-8 md:w-9 md:h-9"
+              className="w-8 h-8 md:w-9 md:h-9 object-contain"
             />
             <span className="text-xl md:text-2xl font-bold tracking-tight text-[#1a2e35]">
               Carbon<span className="text-[#10b981]">Sync</span>

@@ -131,11 +131,8 @@ export default function PremiumFooter() {
           {/* Brand & Socials - takes up more space on large screens */}
           <div className="lg:col-span-4 flex flex-col items-start">
             <div className="flex flex-col items-start gap-4 mb-6">
-              <div className="flex flex-col items-start gap-2">
-                <div className="w-28 h-[78px] overflow-hidden">
-                  <img src="/logo.png" alt="CarbonSync" className="w-28 object-contain object-top mix-blend-multiply contrast-105" />
-                </div>
-                <span className="text-3xl font-black tracking-tight text-[#0f172a]">carbon<span className="text-green-600">sync</span></span>
+              <div className="flex items-start">
+                <img src="/logo.png" alt="CarbonSync" className="h-16 w-auto object-contain" />
               </div>
               <p className="text-[#334155] text-[16px] font-bold leading-relaxed max-w-[280px]">
                 Built on the belief in a greener, more sustainable future.
