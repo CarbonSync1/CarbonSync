@@ -1,6 +1,8 @@
+import dynamic from 'next/dynamic';
 import 'leaflet/dist/leaflet.css';
 import '@/components/dashboard/dashboard-styles.css';
-import DashboardApp from '@/components/DashboardApp';
+
+const DashboardApp = dynamic(() => import('@/components/DashboardApp'), { ssr: false });
 
 export default function DashboardPage() {
   return (

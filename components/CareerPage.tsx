@@ -72,9 +72,9 @@ const VOICES = [
 ];
 
 const FILTERS = ["All", "Engineering", "Climate Science", "Product", "Policy", "Go-to-Market"];
-const CAT_MAP = { All: "all", Engineering: "engineering", "Climate Science": "science", Product: "product", Policy: "policy", "Go-to-Market": "gtm" };
+const CAT_MAP: Record<string, string> = { All: "all", Engineering: "engineering", "Climate Science": "science", Product: "product", Policy: "policy", "Go-to-Market": "gtm" };
 
-function Badge({ children }) {
+function Badge({ children }: { children: React.ReactNode }) {
   return (
     <span className="rounded-full border border-emerald-200/60 bg-gradient-to-b from-emerald-50 to-emerald-100/50 px-3.5 py-1.5 text-[10px] font-bold text-emerald-700 tracking-widest uppercase">
       {children}
@@ -232,12 +232,12 @@ export default function CarbonSyncCareerPage() {
       {/* REFINED STATS SECTION */}
       <section className="px-6 py-10 md:px-12 lg:px-20 max-w-7xl mx-auto" role="button" tabIndex={0} onKeyPress={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.open('https://youtu.be/ZyGjc9gFT4w', '_blank'); } }}>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-          {[
+          {([
             ["2.4M+", "Tonnes CO₂ Tracked", "Verifiable & direct pipeline carbon monitoring", TrendingUp],
             ["140+", "Team Members", "Scientists, engineers, and market specialists", Sparkles],
             ["38", "Countries Active", "Covering global corporate operations and entities", Globe2],
             ["$120M", "Series C Raised", "Backed by leading systemic infrastructure funds", DollarSign]
-          ].map(([v, l, d, Icon], i) => (
+          ] as [string, string, string, React.ComponentType<{ size?: number }>][]).map(([v, l, d, Icon], i) => (
             <motion.div
               key={l}
               initial={{ opacity: 0, y: 15 }}
