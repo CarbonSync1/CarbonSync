@@ -56,8 +56,9 @@ const About = () => {
             transition={{ duration: 0.8, delay: index * 0.1 }}
           >
             <div className="about-image">
-              <img src={row.image} alt={row.tag} />
+              <img src={row.image} alt={row.tag} width="800" height="500" loading="lazy" />
             </div>
+            
             <div className="about-content">
               <div className="about-tag">
                 <span className="tag-dot" />
@@ -146,7 +147,7 @@ const About = () => {
               <button className="story-modal-close" onClick={() => setShowStory(false)}>×</button>
               <div className="story-modal-grid">
                 <div className="story-modal-image">
-                  <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Our Office" />
+                  <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Our Office" width="800" height="500" loading="lazy" />
                 </div>
                 <div className="story-modal-text">
                   <div className="story-tag">OUR JOURNEY</div>

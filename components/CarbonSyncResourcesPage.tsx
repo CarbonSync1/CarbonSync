@@ -26,7 +26,7 @@ import {
 
 const CarbonSyncLogoSticker = ({ size = 24, className = '', ...rest }: any) => (
   <img
-    src="/resources-assets/carbonsync-logo-v2.png"
+    src="/resources-assets/carbonsync-logo-v2.webp"
     alt="CarbonSync"
     style={{ height: size, width: 'auto', objectFit: 'contain' }}
     className={className}
@@ -61,7 +61,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '8 min read',
     accent: 'accent-emerald',
-    image: '/resources-assets/img5.png',
+    image: '/resources-assets/img5.webp',
   },
   {
     type: 'Whitepaper',
@@ -71,7 +71,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img4.png',
+    image: '/resources-assets/img4.webp',
   },
 
 
@@ -83,7 +83,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '5 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img9.png',
+    image: '/resources-assets/img9.webp',
   },
   {
     type: 'Guide',
@@ -93,7 +93,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '12 min read',
     accent: 'accent-emerald',
-    image: '/resources-assets/img10.png',
+    image: '/resources-assets/img10.webp',
   },
   {
     type: 'Whitepaper',
@@ -103,7 +103,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img11.png',
+    image: '/resources-assets/img11.webp',
   },
 
 
@@ -115,7 +115,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '7 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img15.png',
+    image: '/resources-assets/img15.webp',
   },
   {
     type: 'Guide',
@@ -125,7 +125,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '15 min read',
     accent: 'accent-emerald',
-    image: '/resources-assets/img16.png',
+    image: '/resources-assets/img16.webp',
   },
   {
     type: 'Whitepaper',
@@ -135,7 +135,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img17.png',
+    image: '/resources-assets/img17.webp',
   },
   {
     type: 'Article',
@@ -145,7 +145,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img5.png',
+    image: '/resources-assets/img5.webp',
   },
   {
     type: 'Guide',
@@ -155,7 +155,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-emerald',
-    image: '/resources-assets/img4.png',
+    image: '/resources-assets/img4.webp',
   },
   {
     type: 'Whitepaper',
@@ -165,7 +165,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img6.png',
+    image: '/resources-assets/img6.webp',
   },
 
 
@@ -177,7 +177,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '5 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img10.png',
+    image: '/resources-assets/img10.webp',
   },
   {
     type: 'Guide',
@@ -187,7 +187,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-emerald',
-    image: '/resources-assets/img1.png',
+    image: '/resources-assets/img1.webp',
     hideFromAll: true,
   },
   {
@@ -198,7 +198,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '15 min read',
     accent: 'accent-lime',
-    image: '/resources-assets/img2.png',
+    image: '/resources-assets/img2.webp',
     hideFromAll: true,
   },
   {
@@ -209,7 +209,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '12 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img3.png',
+    image: '/resources-assets/img3.webp',
     hideFromAll: true,
   },
   {
@@ -220,7 +220,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img5.png',
+    image: '/resources-assets/img5.webp',
   },
   {
     type: 'Whitepaper',
@@ -230,7 +230,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img7.png',
+    image: '/resources-assets/img7.webp',
   },
   {
     type: 'Whitepaper',
@@ -240,7 +240,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img8.png',
+    image: '/resources-assets/img8.webp',
   },
   {
     type: 'Whitepaper',
@@ -250,7 +250,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img11.png',
+    image: '/resources-assets/img11.webp',
   },
   {
     type: 'Whitepaper',
@@ -260,7 +260,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: 'Download PDF',
     accent: 'accent-lime',
-    image: '/resources-assets/img13.png',
+    image: '/resources-assets/img13.webp',
   },
   {
     type: 'Article',
@@ -270,7 +270,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img10.png',
+    image: '/resources-assets/img10.webp',
   },
   {
     type: 'Article',
@@ -280,7 +280,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img3.png',
+    image: '/resources-assets/img3.webp',
   },
   {
     type: 'Article',
@@ -290,7 +290,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '12 min read',
     accent: 'accent-lime',
-    image: '/resources-assets/img12.png',
+    image: '/resources-assets/img12.webp',
   },
   {
     type: 'Article',
@@ -300,7 +300,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img3.png',
+    image: '/resources-assets/img3.webp',
   },
   {
     type: 'Article',
@@ -310,7 +310,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img5.png',
+    image: '/resources-assets/img5.webp',
   },
   {
     type: 'Article',
@@ -320,7 +320,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '5 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img7.png',
+    image: '/resources-assets/img7.webp',
   },
   {
     type: 'Newsroom',
@@ -396,7 +396,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '7 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img2.png',
+    image: '/resources-assets/img2.webp',
     hideFromAll: true,
   },
   {
@@ -407,7 +407,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '9 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img12.png',
+    image: '/resources-assets/img12.webp',
     hideFromAll: true,
   },
   {
@@ -418,7 +418,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img15.png',
+    image: '/resources-assets/img15.webp',
     hideFromAll: true,
   },
   {
@@ -429,7 +429,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img17.png',
+    image: '/resources-assets/img17.webp',
     hideFromAll: true,
   },
   {
@@ -440,7 +440,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img4.png',
+    image: '/resources-assets/img4.webp',
     hideFromAll: true,
   },
   {
@@ -451,7 +451,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '7 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img1.png',
+    image: '/resources-assets/img1.webp',
     hideFromAll: true,
   },
   {
@@ -462,7 +462,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '11 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img2.png',
+    image: '/resources-assets/img2.webp',
     hideFromAll: true,
   },
   {
@@ -473,7 +473,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img3.png',
+    image: '/resources-assets/img3.webp',
     hideFromAll: true,
   },
   {
@@ -484,7 +484,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img4.png',
+    image: '/resources-assets/img4.webp',
     hideFromAll: true,
   },
   {
@@ -495,7 +495,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '9 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img5.png',
+    image: '/resources-assets/img5.webp',
     hideFromAll: true,
   },
   {
@@ -506,7 +506,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '5 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img6.png',
+    image: '/resources-assets/img6.webp',
     hideFromAll: true,
   },
   {
@@ -517,7 +517,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img7.png',
+    image: '/resources-assets/img7.webp',
     hideFromAll: true,
   },
   {
@@ -528,7 +528,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '7 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img8.png',
+    image: '/resources-assets/img8.webp',
     hideFromAll: true,
   },
   {
@@ -539,7 +539,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img9.png',
+    image: '/resources-assets/img9.webp',
     hideFromAll: true,
   },
   {
@@ -550,7 +550,7 @@ const resources: Resource[] = [
     tag: 'Carbon Data',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img12.png',
+    image: '/resources-assets/img12.webp',
     hideFromAll: true,
   },
   {
@@ -561,7 +561,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '10 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img13.png',
+    image: '/resources-assets/img13.webp',
     hideFromAll: true,
   },
   {
@@ -572,7 +572,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '6 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img14.png',
+    image: '/resources-assets/img14.webp',
     hideFromAll: true,
   },
   {
@@ -583,7 +583,7 @@ const resources: Resource[] = [
     tag: 'Company News',
     read: '7 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img15.png',
+    image: '/resources-assets/img15.webp',
     hideFromAll: true,
   },
   {
@@ -594,7 +594,7 @@ const resources: Resource[] = [
     tag: 'Analytics',
     read: '15 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img16.png',
+    image: '/resources-assets/img16.webp',
     hideFromAll: true,
   },
   {
@@ -605,7 +605,7 @@ const resources: Resource[] = [
     tag: 'Net Zero',
     read: '8 min read',
     accent: 'accent-teal',
-    image: '/resources-assets/img17.png',
+    image: '/resources-assets/img17.webp',
     hideFromAll: true,
   },
 ];
@@ -1679,7 +1679,7 @@ export default function CarbonSyncResourcesPage() {
           </ul>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img5.png" alt="Real-Time Dashboard" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img5.webp" alt="Real-Time Dashboard" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 1: Real-time carbon tracking dashboard interface.</p>
           </div>
 
@@ -1718,7 +1718,7 @@ export default function CarbonSyncResourcesPage() {
           <p>The shift to real-time tracking is made possible by several key technologies. IoT sensors installed on equipment and in facilities provide direct telemetry on energy consumption. Automated API integrations with utility providers and ERP systems eliminate manual data entry and ensure that data flows seamlessly into the carbon accounting platform. Advanced machine learning algorithms can then process this data in real-time, applying dynamic emission factors that account for variations in grid intensity throughout the day.</p>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img6.png" alt="IoT Sensors and Data Flow" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img6.webp" alt="IoT Sensors and Data Flow" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 2: IoT integration for real-time carbon telemetry.</p>
           </div>
 
@@ -1760,7 +1760,7 @@ export default function CarbonSyncResourcesPage() {
           <p>Within the first month, the system identified a specific regional warehouse where emissions from refrigeration units were 30% higher than the baseline. An investigation revealed a faulty seal in one of the units. Because the issue was detected in real-time, it was fixed within 48 hours, saving an estimated 50 tons of CO2e that would have gone unnoticed until the next quarterly report.</p>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img8.png" alt="Logistics Case Study" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img8.webp" alt="Logistics Case Study" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 3: Real-time route optimization for emission reduction.</p>
           </div>
 
@@ -1830,7 +1830,7 @@ export default function CarbonSyncResourcesPage() {
           </ul>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img11.png" alt="Greenwashing vs Sustainability" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img11.webp" alt="Greenwashing vs Sustainability" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 1: Distinguishing greenwashing from authentic sustainability.</p>
           </div>
 
@@ -1870,7 +1870,7 @@ export default function CarbonSyncResourcesPage() {
           <p>In contrast, a truly sustainable apparel brand might implement a circular business model. This involves designing products for durability, using 100% recycled or organic materials across all lines, and offering a take-back program to recycle old garments. They would provide full visibility into their supply chain emissions (Scope 3) and share verifiable data on the water and carbon savings of their products. This holistic approach represents true sustainability.</p>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img2.png" alt="Circular Economy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img2.webp" alt="Circular Economy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 2: Circular economy model vs linear model.</p>
           </div>
 
@@ -1934,7 +1934,7 @@ export default function CarbonSyncResourcesPage() {
           </ul>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img13.png" alt="AI in ESG" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img13.webp" alt="AI in ESG" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 1: AI-driven ESG data analysis dashboard.</p>
           </div>
 
@@ -1974,7 +1974,7 @@ export default function CarbonSyncResourcesPage() {
           <p>The company deployed an AI system that analyzed supplier procurement data, product specifications, and shipping routes. The AI identified that 40% of supply chain emissions came from just 5% of suppliers, primarily due to inefficient manufacturing processes and long-distance transport. Armed with this insight, the company worked with those specific suppliers to optimize operations, resulting in a 15% reduction in Scope 3 emissions within 18 months—a result that would have taken years to achieve manually.</p>
 
           <div style={{ width: '100%', height: 300, borderRadius: 16, overflow: 'hidden', margin: '32px 0' }}>
-            <img src="/img4.png" alt="Supply Chain AI" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/resources-assets/img4.webp" alt="Supply Chain AI" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <p style={{ fontSize: '12px', color: '#64748b', textAlign: 'center', marginTop: '8px' }}>Fig 2: Supplier emission mapping using machine learning.</p>
           </div>
 

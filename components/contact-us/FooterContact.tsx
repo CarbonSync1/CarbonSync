@@ -81,9 +81,7 @@ export default function FooterContact() {
 
       </div>
 
-      <div className="mt-16 text-center text-[11px] font-bold text-gray-300 uppercase tracking-[0.2em]">
-        © 2026 CarbonSync Private Limited. All Rights Reserved.
-      </div>
+
     </footer>
   );
 }

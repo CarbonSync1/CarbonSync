@@ -50,7 +50,7 @@ export default function CalendlyWidget({ onClose }: CalendlyWidgetProps) {
           overflowY: "auto",
           fontFamily: "'Inter', sans-serif"
         }}>
-          <img src={logo} className="logo" alt="Logo" style={{ width: "60px", marginBottom: "10px" }} />
+          <img src={logo} className="logo" alt="Logo" width="60" height="60" style={{ marginBottom: "10px" }} />
           
           <p className="host" style={{ color: "#6b7280", margin: 0, fontSize: "14px" }}>
             Pushkar Singh

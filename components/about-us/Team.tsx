@@ -56,7 +56,7 @@ const Team = () => {
               transition={{ duration: 0.8, delay: index * 0.1 }}
             >
               <div className="member-image">
-                <img src={member.image} alt={member.name} />
+                <img src={member.image} alt={member.name} width="480" height="600" loading="lazy" />
               </div>
               <div className="member-info">
                 <h3>{member.name}</h3>

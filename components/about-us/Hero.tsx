@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="hero" id="hero">
       {/* Background Image */}
       <div className="hero-bg">
-        <img src={heroBg} alt="Modern skyscrapers" />
+        <img src={heroBg} alt="Modern skyscrapers" width="1920" height="1080" fetchPriority="high" />
       </div>
 
       {/* Dark Overlay */}
@@ -85,7 +85,7 @@ const Hero = () => {
               <button className="story-modal-close" onClick={() => setShowStory(false)}>×</button>
               <div className="story-modal-grid">
                 <div className="story-modal-image">
-                  <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Our Office" />
+                  <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" alt="Our Office" width="800" height="500" loading="lazy" />
                 </div>
                 <div className="story-modal-text">
                   <div className="story-tag">OUR JOURNEY</div>

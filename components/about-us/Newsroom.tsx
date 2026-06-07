@@ -99,7 +99,7 @@ const Newsroom = () => {
           style={{ cursor: 'pointer' }}
         >
           <div className="featured-image">
-            <img src={featuredArticle.image} alt="Featured Insight" />
+            <img src={featuredArticle.image} alt="Featured Insight" width="1200" height="500" loading="lazy" />
           </div>
           <div className="featured-overlay">
             <div className="featured-tag">{featuredArticle.category}</div>
@@ -140,7 +140,7 @@ const Newsroom = () => {
               style={{ cursor: 'pointer' }}
             >
               <div className="article-image">
-                <img src={article.image} alt={article.category} />
+                <img src={article.image} alt={article.category} width="800" height="220" loading="lazy" />
               </div>
               <div className="article-content">
                 <h4 className="article-category">{article.category}</h4>
@@ -175,7 +175,7 @@ const Newsroom = () => {
                     style={{ cursor: 'pointer' }}
                   >
                     <div className="article-image">
-                      <img src={article.image} alt={article.category} />
+                <img src={article.image} alt={article.category} width="800" height="220" loading="lazy" />
                     </div>
                     <div className="article-content">
                       <h4 className="article-category">{article.category}</h4>
@@ -206,7 +206,7 @@ const Newsroom = () => {
             >
               <button className="article-modal-close" onClick={() => setSelectedArticle(null)}>×</button>
               <div className="article-modal-image">
-                <img src={selectedArticle.image} alt={selectedArticle.category} />
+                <img src={selectedArticle.image} alt={selectedArticle.category} width="800" height="300" loading="lazy" />
               </div>
               <div className="article-modal-text">
                 <div className="article-modal-tag">{selectedArticle.category}</div>

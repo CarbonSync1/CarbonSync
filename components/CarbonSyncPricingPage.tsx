@@ -459,14 +459,6 @@ export default function CarbonSyncPricingPage() {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-green-500 to-cyan-500" />
           <span className="text-xl font-bold tracking-tight text-gray-900">CarbonSync</span>
         </div>
-        <p className="text-gray-500 text-sm">
-          © 2026 CarbonSync Technologies. All rights reserved.
-        </p>
-        <div className="flex gap-8 text-sm font-medium text-gray-600">
-          <a href="#" className="hover:text-green-600 transition">Privacy Policy</a>
-          <a href="#" className="hover:text-green-600 transition">Terms of Service</a>
-          <a href="#" className="hover:text-green-600 transition">Cookie Settings</a>
-        </div>
       </footer>
     </div>
   );

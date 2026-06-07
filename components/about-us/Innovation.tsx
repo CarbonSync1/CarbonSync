@@ -14,7 +14,7 @@ const Innovation = () => {
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          <img src={innovationBg} alt="Advanced Circuitry" />
+          <img src={innovationBg} alt="Advanced Circuitry" width="800" height="500" loading="lazy" />
         </motion.div>
 
         {/* Right: Content */}
