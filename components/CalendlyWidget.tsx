@@ -43,7 +43,7 @@ export default function CalendlyWidget({ onClose }: { onClose: () => void }) {
           overflowY: "auto",
           fontFamily: "Arial, sans-serif"
         }}>
-          <img src="/netzero/carbonsync-logo.png" className="logo" alt="Logo" style={{ width: "200px", marginBottom: "10px" }} />
+          <img src="/netzero/carbonsync-logo.webp" className="logo" alt="Logo" style={{ width: "200px", marginBottom: "10px" }} />
           
           <p className="host" style={{ color: "#6b7280", margin: 0, fontSize: "14px" }}>
             Pushkar Singh

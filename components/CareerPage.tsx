@@ -14,6 +14,7 @@ import {
   Globe2,
   Leaf,
   Zap,
+  Users,
   ShieldCheck,
   Award,
   Sparkles,
@@ -23,13 +24,7 @@ import {
 } from "lucide-react";
 const heroVisual = "/career-assets/team_culture.webp";
 const mandateVisual = "/career-assets/climate_accounting_mandate.webp";
-const rBharatConclave = "/career-assets/r_bharat_conclave.webp";
 const campusBuilding = "/career-assets/team_culture.webp";
-const dayInLifeOffice = "/career-assets/day_in_life_office.webp";
-const workspaceCollaboration = "/career-assets/workspace_collaboration.webp";
-const focusLab = "/career-assets/focus_lab.webp";
-const synergyHub = "/career-assets/synergy_hub.webp";
-const teamCulture = "/career-assets/team_culture.webp";
 
 const JOBS = [
   { title: "Senior Backend Engineer", dept: "Engineering", loc: "Remote", badge: "Remote", type: "Full-time", cat: "engineering", desc: "Architect and scale high-throughput pipeline infrastructure parsing real-time emissions data across 38 jurisdictions." },
@@ -269,15 +264,8 @@ export default function CarbonSyncCareerPage() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="group relative rounded-[2.5rem] overflow-hidden shadow-2xl min-h-[480px] md:min-h-[560px] flex items-end border border-slate-200"
         >
-          {/* Zooming background image wrapper */}
-          <div
-            className="absolute inset-0 transition-transform duration-[1500ms] ease-out group-hover:scale-[1.03]"
-            style={{
-              backgroundImage: `url(${rBharatConclave})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center 15%',
-            }}
-          />
+          {/* Zooming background gradient */}
+          <div className="absolute inset-0 transition-transform duration-[1500ms] ease-out group-hover:scale-[1.03] bg-gradient-to-br from-slate-800 via-slate-700 to-emerald-900" />
 
           {/* Cinematic overlay - lighter to show image */}
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent transition-opacity duration-500 group-hover:opacity-90" />
@@ -395,11 +383,12 @@ export default function CarbonSyncCareerPage() {
 
             {/* Left Photo from User Workspace */}
             <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="relative h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-md group">
-              <img
-                src={focusLab}
-                alt="Developer focus desk"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-700 transition-transform duration-500 group-hover:scale-105" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center backdrop-blur-sm">
+                  <Zap className="w-8 h-8 text-emerald-400" />
+                </div>
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
                 <span className="text-[9px] font-bold text-emerald-400 uppercase tracking-widest">Focus Lab</span>
@@ -409,11 +398,12 @@ export default function CarbonSyncCareerPage() {
 
             {/* Right Photo from User Workspace */}
             <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.05 }} className="relative h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-md group">
-              <img
-                src={synergyHub}
-                alt="High-performance collaboration desk"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-800 transition-transform duration-500 group-hover:scale-105" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center backdrop-blur-sm">
+                  <Users className="w-8 h-8 text-emerald-400" />
+                </div>
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
                 <span className="text-[9px] font-bold text-emerald-400 uppercase tracking-widest">Synergy Hub</span>
@@ -423,11 +413,12 @@ export default function CarbonSyncCareerPage() {
 
             {/* Third New Workspace Collaboration Image */}
             <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="relative h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-md sm:col-span-2 lg:col-span-1 group">
-              <img
-                src={workspaceCollaboration}
-                alt="CarbonSync Team Collaboration"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-900 to-slate-800 transition-transform duration-500 group-hover:scale-105" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center backdrop-blur-sm">
+                  <Leaf className="w-8 h-8 text-emerald-400" />
+                </div>
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
                 <span className="text-[9px] font-bold text-emerald-400 uppercase tracking-widest">Team Culture</span>

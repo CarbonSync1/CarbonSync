@@ -1,8 +1,3 @@
-export interface Stat {
-  value: string
-  label: string
-}
-
 export interface Problem {
   icon: string
   title: string

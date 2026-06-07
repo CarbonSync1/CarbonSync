@@ -10,7 +10,7 @@ export default function ContactHero() {
     <div 
       className="relative flex items-center overflow-hidden font-sans bg-white min-h-[850px]"
       style={{
-        backgroundImage: "url('/landscape-bg.png')",
+        backgroundImage: "url('/landscape-bg.webp')",
         backgroundSize: 'cover',
         backgroundPosition: 'center 80%',
         backgroundRepeat: 'no-repeat',

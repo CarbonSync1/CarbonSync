@@ -1,5 +1,4 @@
 import type {
-  Stat,
   Problem,
   WorkflowStep,
   ScopeData,
@@ -9,13 +8,6 @@ import type {
   Integration,
   RoadmapPhase,
 } from '../types'
-
-export const heroStats: Stat[] = [
-  { value: '5000+', label: 'Suppliers Connected' },
-  { value: '95%', label: 'Data Automation' },
-  { value: '40%', label: 'Faster Reporting' },
-  { value: 'Global', label: 'ESG Compliance' },
-]
 
 export const problems: Problem[] = [
   {

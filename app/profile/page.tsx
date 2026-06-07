@@ -1,6 +1,6 @@
 ﻿import dynamic from 'next/dynamic';
 
-const ProfilePage = dynamic(() => import('@/components/profile/ProfilePage'), { ssr: false });
+const ProfilePage = dynamic(() => import('@/components/profile/ProfilePage'));
 
 import '@/components/profile/profile-styles.css';
 
