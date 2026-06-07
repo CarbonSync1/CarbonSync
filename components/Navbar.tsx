@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
 
 const links = [
+  { name: 'Home', href: '/' },
   {
     name: 'Solutions',
     href: '#',
