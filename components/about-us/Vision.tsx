@@ -1,6 +1,6 @@
 ﻿'use client';
 import { motion } from 'framer-motion'
-const visionBg = "/about-assets/vision-bg.png";
+const visionBg = "/about-assets/vision-bg.webp";
 
 const Vision = () => {
   return (

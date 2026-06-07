@@ -1,6 +1,6 @@
 ﻿'use client';
 import { motion } from 'framer-motion'
-const missionBg = "/about-assets/mission-bg.png";
+const missionBg = "/about-assets/mission-bg.webp";
 import { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import CalendlyWidget from './CalendlyWidget'

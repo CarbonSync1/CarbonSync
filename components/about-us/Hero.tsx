@@ -1,7 +1,7 @@
 ﻿'use client';
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-const heroBg = "/about-assets/hero-bg.png";
+const heroBg = "/about-assets/hero-bg.webp";
 
 const Hero = () => {
   const [showStory, setShowStory] = useState(false);

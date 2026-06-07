@@ -73,7 +73,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <Image
-              src="/netzero/carbonsync-logo.png"
+              src="/netzero/carbonsync-logo.webp"
               alt="CarbonSync"
               width={36}
               height={36}

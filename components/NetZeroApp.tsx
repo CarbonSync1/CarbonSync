@@ -117,7 +117,7 @@ export default function App() {
       label: 'Measure',
       desc: 'Seamlessly upload your scope 3 activity data through API integrations & bulk uploads, customise calculation methodologies to suit your data collection capabilities, and automate your scope 3 calculations for maximum repeatability.',
       icon: 'BarChart3',
-      image: '/netzero/measure.png',
+      image: '/netzero/measure.webp',
       highlights: [
         { title: 'API Integration', desc: 'Sync ERP, utility APIs, and supplier invoices.' },
         { title: 'Custom Methodologies', desc: 'Tailor your emission calculations by category.' },
@@ -128,7 +128,7 @@ export default function App() {
       label: 'Analyze',
       desc: 'Understand the nature of your emissions profile at a granular level through dynamic dashboards to visualise, identify & act on hotspots across emission sources & locations.',
       icon: 'Activity',
-      image: '/netzero/analyze.png',
+      image: '/netzero/analyze.webp',
       highlights: [
         { title: 'Interactive Heatmaps', desc: 'View hotspots across geographic regions and suppliers.' },
         { title: 'Scope Breakdown', desc: 'Compare Scope 1, 2, and 3 profiles side-by-side.' },
@@ -139,7 +139,7 @@ export default function App() {
       label: 'Reduce',
       desc: 'Set emission reduction targets in line with the latest climate science, access curated decarbonization strategies based on your emissions profile & simulate the impact of decarbonization strategies.',
       icon: 'Calendar',
-      image: '/netzero/reduce.png',
+      image: '/netzero/reduce.webp',
       highlights: [
         { title: 'Science-Aligned Targets', desc: 'Set reduction goals in line with SBTi guidelines.' },
         { title: 'Decarbonization Scenarios', desc: 'Model the impact of supply chain shifts.' },
@@ -150,7 +150,7 @@ export default function App() {
       label: 'Achieve',
       desc: 'Access our curated marketplace of vendors that provide implementation services across decarbonization, carbon offsets, & carbon finance to turn your CarbonSync Zero ambitions into reality.',
       icon: 'Leaf',
-      image: '/netzero/achieve.png',
+      image: '/netzero/achieve.webp',
       highlights: [
         { title: 'Marketplace of Vendors', desc: 'Connect directly to vetted decarbonization vendors.' },
         { title: 'Certified Carbon Offsets', desc: 'Buy gold standard offsets with automatic retirement.' },
@@ -267,7 +267,7 @@ export default function App() {
         id="hero"
         className="relative min-h-[92vh] flex items-center justify-center pt-12 pb-16 px-6 overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(10, 20, 15, 0.75), rgba(15, 30, 20, 0.85)), url('/netzero/hero.jpg')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(10, 20, 15, 0.75), rgba(15, 30, 20, 0.85)), url('/netzero/hero.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -283,7 +283,7 @@ export default function App() {
               transition={{ duration: 0.6 }}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-[#4ade80] mb-6"
             >
-              <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-4 h-4 object-contain" />
+              <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-4 h-4 object-contain" />
               <span>Version 2.4 Enterprise Platform Now Live</span>
             </motion.div>
 
@@ -363,7 +363,7 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/5 to-transparent pointer-events-none z-10" />
               <img 
-                src="/netzero/dashboard-light.png" 
+                src="/netzero/dashboard-light.webp" 
                 alt="Global Manufacturing Analytics Dashboard" 
                 className="w-full h-auto object-contain relative"
               />
@@ -556,7 +556,7 @@ export default function App() {
             transition={{ duration: 0.7 }}
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-700 mb-6 uppercase tracking-widest">
-              <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-3.5 h-3.5 object-contain" /> About the Platform
+              <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-3.5 h-3.5 object-contain" /> About the Platform
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
               What is <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-400">CarbonSync</span>?
@@ -1062,7 +1062,7 @@ export default function App() {
                   >
                     <div>
                       <div className="w-10 h-10 rounded-xl bg-red-50 border border-red-200 flex items-center justify-center mb-4">
-                        <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-5 h-5 object-contain" />
+                        <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-5 h-5 object-contain" />
                       </div>
                       <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red-400 mb-2 block">The Challenge</span>
                       <h3 className="text-lg font-extrabold text-slate-900 mb-3">{val.label}</h3>
@@ -1200,7 +1200,7 @@ export default function App() {
                       </div>
                       {/* URL / Brand Address Bar */}
                       <div className="flex items-center gap-1.5 px-3 py-1 rounded bg-slate-200/50 text-[10px] font-semibold text-slate-600 border border-slate-200/30">
-                        <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Logo" className="w-3.5 h-3.5 object-contain" />
+                        <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Logo" className="w-3.5 h-3.5 object-contain" />
                         <span className="tracking-tight text-slate-700">app.carbonsync.com</span>
                       </div>
                       <div className="w-10" /> {/* Spacer to center URL bar */}
@@ -1283,7 +1283,7 @@ export default function App() {
               <div className="absolute top-0 right-0 w-24 h-24 bg-secondary/5 rounded-full blur-2xl" />
               
               <h4 className="text-lg font-bold text-black mb-6 flex items-center gap-2">
-                <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-5 h-5 object-contain" /> Dynamic Decarbonization Pipeline
+                <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-5 h-5 object-contain" /> Dynamic Decarbonization Pipeline
               </h4>
 
               {/* Progress Targets */}
@@ -1679,7 +1679,7 @@ export default function App() {
             <div className="flex flex-wrap items-center justify-between border-b border-slate-200 p-4 gap-4 bg-slate-100/20 rounded-t-2xl">
               <div className="flex items-center gap-6">
                 <span className="text-sm font-bold text-slate-900 flex items-center gap-1.5">
-                  <img src="/netzero/carbonsync-icon.png" alt="CarbonSync" className="w-6 h-6 object-contain" /> CarbonSync Pro
+                  <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync" className="w-6 h-6 object-contain" /> CarbonSync Pro
                 </span>
                 <div className="hidden sm:flex items-center gap-2 text-xs text-slate-600">
                   <span className="px-2 py-0.5 rounded bg-slate-50 border border-slate-200">v2.4</span>
@@ -1984,7 +1984,7 @@ export default function App() {
             
             <div className="flex-1 text-center lg:text-left relative z-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-[10px] font-bold text-emerald-400 mb-4 uppercase tracking-widest">
-                <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-3 h-3 object-contain" />
+                <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-3 h-3 object-contain" />
                 Join 100+ Enterprise Pacesetters
               </div>
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white mb-3">
@@ -2157,7 +2157,7 @@ export default function App() {
               
               <div className="flex items-center gap-3 mb-6 pb-6 border-b border-slate-200">
                 <div className="p-2.5 rounded-lg bg-slate-100 text-slate-600">
-                  <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-6 h-6 object-contain" />
+                  <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-6 h-6 object-contain" />
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-slate-900">Traditional ESG Management</h4>
@@ -2176,7 +2176,7 @@ export default function App() {
                     className="flex gap-4 items-start group/item hover:bg-white/[0.03] rounded-lg p-2 -m-2 transition-colors duration-200"
                   >
                     <div className="p-1 rounded-full bg-slate-100 text-slate-600 mt-0.5 shrink-0 group-hover/item:bg-red-500/20 group-hover/item:text-red-400 transition-colors duration-200">
-                      <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-3.5 h-3.5 object-contain" />
+                      <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-3.5 h-3.5 object-contain" />
                     </div>
                     <div>
                       <h5 className="text-sm font-bold text-slate-900 mb-0.5">{item.title}</h5>
@@ -2194,7 +2194,7 @@ export default function App() {
               <div className="flex items-center justify-between mb-6 pb-6 border-b border-slate-200">
                 <div className="flex items-center gap-3">
                   <div className="p-2.5 rounded-lg bg-primary/10 text-[#4ade80]">
-                    <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Icon" className="w-6 h-6 object-contain" />
+                    <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Icon" className="w-6 h-6 object-contain" />
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-slate-900">CarbonSync AI Platform</h4>
@@ -2871,7 +2871,7 @@ export default function App() {
               
               <div className="mb-8">
                 <div className="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center mb-4 border border-emerald-100 shadow-sm p-2">
-                  <img src="/netzero/carbonsync-icon.png" alt="CarbonSync Logo" className="w-full h-full object-contain drop-shadow-sm" />
+                  <img src="/netzero/carbonsync-icon.webp" alt="CarbonSync Logo" className="w-full h-full object-contain drop-shadow-sm" />
                 </div>
                 <h3 className="text-2xl font-extrabold text-slate-900 mb-2">Start Your Journey</h3>
                 <p className="text-slate-500 text-sm">Join enterprise leaders driving measurable climate impact with CarbonSync.</p>

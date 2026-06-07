@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
+import dynamic from 'next/dynamic';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
 import {
   Leaf, Search, Sun, LayoutDashboard, Globe, ShieldCheck, FileText, Sparkles, Settings, TrendingUp,
@@ -8,11 +9,12 @@ import {
   Link as LinkIcon, Eye, Key, ShieldAlert, X, ArrowRight, Trophy
 } from 'lucide-react';
 import ParticleField from '@/components/dashboard/ParticleField';
-import DashboardView from '@/components/dashboard/views/DashboardView';
-import NodesView from '@/components/dashboard/views/NodesView';
-import VaultView from '@/components/dashboard/views/VaultView';
-import LedgerView from '@/components/dashboard/views/LedgerView';
-import GaiaView from '@/components/dashboard/views/GaiaView';
+
+const DashboardView = dynamic(() => import('@/components/dashboard/views/DashboardView'), { ssr: false });
+const NodesView = dynamic(() => import('@/components/dashboard/views/NodesView'), { ssr: false });
+const VaultView = dynamic(() => import('@/components/dashboard/views/VaultView'), { ssr: false });
+const LedgerView = dynamic(() => import('@/components/dashboard/views/LedgerView'), { ssr: false });
+const GaiaView = dynamic(() => import('@/components/dashboard/views/GaiaView'), { ssr: false });
 
 const TABS = [
   { id: 'Overview', icon: LayoutDashboard },
@@ -44,13 +46,18 @@ export default function DashboardApp() {
   }, []);
 
   const renderView = () => {
+    const Fallback = () => (
+      <div className="flex items-center justify-center py-32">
+        <div className="w-10 h-10 border-4 border-emerald-500/30 border-t-emerald-500 rounded-full animate-spin" />
+      </div>
+    );
     switch (activeTab) {
-      case 'Overview': return <DashboardView />;
-      case 'Nodes': return <NodesView />;
-      case 'Vault': return <VaultView />;
-      case 'Ledger': return <LedgerView />;
-      case 'Gaia AI': return <GaiaView />;
-      default: return <DashboardView />;
+      case 'Overview': return <Suspense fallback={<Fallback />}><DashboardView /></Suspense>;
+      case 'Nodes': return <Suspense fallback={<Fallback />}><NodesView /></Suspense>;
+      case 'Vault': return <Suspense fallback={<Fallback />}><VaultView /></Suspense>;
+      case 'Ledger': return <Suspense fallback={<Fallback />}><LedgerView /></Suspense>;
+      case 'Gaia AI': return <Suspense fallback={<Fallback />}><GaiaView /></Suspense>;
+      default: return <Suspense fallback={<Fallback />}><DashboardView /></Suspense>;
     }
   };
 

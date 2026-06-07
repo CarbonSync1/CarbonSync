@@ -132,7 +132,7 @@ export default function PremiumFooter() {
           <div className="lg:col-span-4 flex flex-col items-start">
             <div className="flex flex-col items-start gap-4 mb-6">
               <div className="flex items-start">
-                <img src="/logo.png" alt="CarbonSync" className="h-16 w-auto object-contain" />
+                <img src="/logo.webp" alt="CarbonSync" className="h-16 w-auto object-contain" />
               </div>
               <p className="text-[#334155] text-[16px] font-bold leading-relaxed max-w-[280px]">
                 Built on the belief in a greener, more sustainable future.
@@ -255,7 +255,7 @@ export default function PremiumFooter() {
             </p>
             <div className="w-full aspect-square bg-white rounded-2xl flex items-center justify-center border border-gray-100 p-2 shadow-inner">
               <img 
-                src={activeQR === 'linkedin' ? '/linkedin_qr.png' : '/x_qr.png'} 
+                src={activeQR === 'linkedin' ? '/linkedin_qr.webp' : '/x_qr.webp'} 
                 alt={`${activeQR} QR Code`} 
                 className="w-full h-full object-contain mix-blend-multiply" 
               />

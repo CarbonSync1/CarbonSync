@@ -21,15 +21,15 @@ import {
   Sliders,
   DollarSign
 } from "lucide-react";
-const heroVisual = "/career-assets/team_culture.png";
-const mandateVisual = "/career-assets/climate_accounting_mandate.png";
-const rBharatConclave = "/career-assets/r_bharat_conclave.jpg";
-const campusBuilding = "/career-assets/team_culture.png";
-const dayInLifeOffice = "/career-assets/day_in_life_office.png";
-const workspaceCollaboration = "/career-assets/workspace_collaboration.png";
-const focusLab = "/career-assets/focus_lab.png";
-const synergyHub = "/career-assets/synergy_hub.png";
-const teamCulture = "/career-assets/team_culture.png";
+const heroVisual = "/career-assets/team_culture.webp";
+const mandateVisual = "/career-assets/climate_accounting_mandate.webp";
+const rBharatConclave = "/career-assets/r_bharat_conclave.webp";
+const campusBuilding = "/career-assets/team_culture.webp";
+const dayInLifeOffice = "/career-assets/day_in_life_office.webp";
+const workspaceCollaboration = "/career-assets/workspace_collaboration.webp";
+const focusLab = "/career-assets/focus_lab.webp";
+const synergyHub = "/career-assets/synergy_hub.webp";
+const teamCulture = "/career-assets/team_culture.webp";
 
 const JOBS = [
   { title: "Senior Backend Engineer", dept: "Engineering", loc: "Remote", badge: "Remote", type: "Full-time", cat: "engineering", desc: "Architect and scale high-throughput pipeline infrastructure parsing real-time emissions data across 38 jurisdictions." },

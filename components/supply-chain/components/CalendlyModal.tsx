@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion';
-const logo = '/supply-chain/logo.png';
+const logo = '/supply-chain/logo.webp';
 
 interface CalendlyModalProps {
   isOpen: boolean;

@@ -1,6 +1,6 @@
 ﻿'use client';
 import { motion } from 'framer-motion'
-const innovationBg = "/about-assets/innovation-bg.png";
+const innovationBg = "/about-assets/innovation-bg.webp";
 
 const Innovation = () => {
   return (

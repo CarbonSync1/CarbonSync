@@ -1,6 +1,6 @@
 ﻿'use client';
 import { motion } from 'framer-motion'
-const team1 = "/about-assets/team-1.png";
+const team1 = "/about-assets/team-1.webp";
 
 const team = [
   {

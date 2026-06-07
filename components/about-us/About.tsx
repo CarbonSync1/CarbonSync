@@ -1,9 +1,9 @@
 ﻿'use client';
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-const visionBg = "/about-assets/vision-bg.png";
-const missionBg = "/about-assets/mission-bg.png";
-const storyBg = "/about-assets/story-bg.png";
+const visionBg = "/about-assets/vision-bg.webp";
+const missionBg = "/about-assets/mission-bg.webp";
+const storyBg = "/about-assets/story-bg.webp";
 import CalendlyWidget from './CalendlyWidget'
 
 

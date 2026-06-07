@@ -1,13 +1,16 @@
-﻿import Hero from '@/components/about-us/Hero';
+﻿import dynamic from 'next/dynamic';
+import Hero from '@/components/about-us/Hero';
 import About from '@/components/about-us/About';
-import Innovation from '@/components/about-us/Innovation';
-import Offerings from '@/components/about-us/Offerings';
-import Team from '@/components/about-us/Team';
-import Newsroom from '@/components/about-us/Newsroom';
-import Logos from '@/components/about-us/Logos';
-import Timeline from '@/components/about-us/Timeline';
-import CallToAction from '@/components/about-us/CallToAction';
-import Experience from '@/components/about-us/Experience';
+
+const Innovation = dynamic(() => import('@/components/about-us/Innovation'));
+const Offerings = dynamic(() => import('@/components/about-us/Offerings'));
+const Team = dynamic(() => import('@/components/about-us/Team'));
+const Newsroom = dynamic(() => import('@/components/about-us/Newsroom'));
+const Logos = dynamic(() => import('@/components/about-us/Logos'));
+const Timeline = dynamic(() => import('@/components/about-us/Timeline'));
+const CallToAction = dynamic(() => import('@/components/about-us/CallToAction'));
+const Experience = dynamic(() => import('@/components/about-us/Experience'));
+
 import '@/components/about-us/about-styles.css';
 
 export default function AboutPage() {

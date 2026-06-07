@@ -1,6 +1,6 @@
 ﻿'use client';
 import { motion } from "framer-motion";
-const logo = "/about-assets/calendly-logo.png";
+const logo = "/about-assets/calendly-logo.webp";
 
 interface CalendlyWidgetProps {
   onClose: () => void;

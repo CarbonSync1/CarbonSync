@@ -41,7 +41,7 @@ export default function BookDemoPage() {
           borderRight: "1px solid #f1f5f9",
           overflowY: "auto"
         }}>
-          <img src="/calendly-assets-logo.png" className="logo" alt="Logo" style={{ width: "60px", marginBottom: "10px" }} />
+          <img src="/calendly-assets-logo.webp" className="logo" alt="Logo" style={{ width: "60px", marginBottom: "10px" }} />
           
           <p className="host" style={{ color: "#6b7280", margin: 0, fontSize: "14px" }}>
             Pushkar Singh
